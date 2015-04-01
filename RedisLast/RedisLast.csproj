@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3中序列化测试.aspx" />
+    <Content Include="BlogTest.aspx" />
     <Content Include="DLL\fastjson.dll" />
     <Content Include="DLL\Newtonsoft.Json.dll" />
     <Content Include="DLL\ServiceStack.Common.dll" />
@@ -98,6 +99,17 @@
     <Compile Include="3中序列化测试.aspx.designer.cs">
       <DependentUpon>3中序列化测试.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BlogTest.aspx.cs">
+      <DependentUpon>BlogTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogTest.aspx.designer.cs">
+      <DependentUpon>BlogTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Blog.cs" />
+    <Compile Include="Model\BlogPost.cs" />
+    <Compile Include="Model\BlogPostComment.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedisBase.cs" />
     <Compile Include="RedisConfigInfo.cs" />

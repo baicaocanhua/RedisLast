@@ -79,3 +79,13 @@ namespace RedisLast
 //第71次执行：Json.NET:234fastJSON:423ServiceStack:320
 //第81次执行：Json.NET:230fastJSON:403ServiceStack:302
 //第91次执行：Json.NET:250fastJSON:524ServiceStack:306
+
+
+#region API ServiceStack.Text
+//string JsonSerializer.SerializeToString<T>(T value);
+//void JsonSerializer.SerializeToWriter<T>(T value, TextWriter writer);
+//void JsonSerializer.SerializeToStream<T>(T value, Stream stream);
+//T JsonSerializer.DeserializeFromString<T>(string value);
+//T JsonSerializer.DeserializeFromReader<T>(TextReader reader);
+//T JsonSerializer.DeserializeFromStream<T>(Stream stream);
+#endregion
